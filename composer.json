@@ -1,0 +1,22 @@
+{
+    "name": "l37sg0/design-patterns",
+    "description": "Visualization of the known PHP Design Patterns",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "L37sg0\\DesignPatterns\\": "src/"
+        },
+        "files": ["public/functions.php"]
+    },
+    "authors": [
+        {
+            "name": "Petar Ivanov",
+            "email": "petar.ivanov@l37sg0.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    }
+}
